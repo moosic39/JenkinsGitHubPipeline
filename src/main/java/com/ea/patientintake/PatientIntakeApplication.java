@@ -3,7 +3,7 @@ package com.ea.patientintake;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.ea.patientintake.model.ClinicMain;
+imprt com.ea.patientintake.model.ClinicMain;
 
 //Comment for poll
 @SpringBootApplication
