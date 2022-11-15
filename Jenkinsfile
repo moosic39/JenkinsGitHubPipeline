@@ -9,7 +9,7 @@ pipeline {
         stage('Compile') {
             steps {
                 echo 'Compile the source code'
-                sh "/opt/homebrew/Cellar/maven/3.8.6/mvn -Dmaven.test.failure.ignore=true clean package"
+                sh "/opt/homebrew/Cellar/maven/3.8.6/bin/mvn -Dmaven.test.failure.ignore=true clean package"
             }
             post {
                 always{
