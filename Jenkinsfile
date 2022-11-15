@@ -13,7 +13,7 @@ pipeline {
             }
             post {
                 always{
-                    emailext body: 'The pipeline has failed, please go to Jenkins and check the problem', subject: 'Pipeline status', to: 'emileastih1@gmail.com'
+                    emailext body: 'The pipeline has failed, please go to Jenkins and check the problem', subject: 'Pipeline status', to: 'moosic39@gmail.com'
                 }
                 success {
                     junit '**/target/surefire-reports/TEST-*.xml'
